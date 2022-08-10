@@ -1,0 +1,23 @@
+.container {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+    background-color: teal;
+}
+
+.box:hover {
+    background-color: blue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
